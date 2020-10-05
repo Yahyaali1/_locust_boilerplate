@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# virtual_env
+/locust_venv
+/local_config.py
