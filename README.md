@@ -1,5 +1,5 @@
 # user_focused_locust_boilerplate
-Locust is an easy to use, scriptable and scalable performance testing tool. This boilerplate is barebones for testing user behavior focused load testing. This can act as a starting point for testing server that have user focused test/use cases. 
+Locust is an easy to use, scriptable and scalable performance testing tool. This boilerplate is barebones for testing user behavior focused load testing. This can act as a starting point for testing api's that are unique user focused. 
 
 ### Structure 
 1. ```base_user.py``` contains the barebone code for log_in, logging_response, validating_response and handling user's pool. 
