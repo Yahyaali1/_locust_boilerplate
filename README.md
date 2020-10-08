@@ -2,7 +2,7 @@
 Locust is an easy to use, scriptable and scalable performance testing tool. This boilerplate is barebones for testing user behavior focused load testing. This can act as a starting point for testing server that have user focused test/use cases. 
 
 ### Structure 
-1. ```base_user.py``` contains the barebone code for log_in, logging_response, validating_response and handling user's login pool. 
+1. ```base_user.py``` contains the barebone code for log_in, logging_response, validating_response and handling user's pool. 
 2. Extend the base_user.py to implement api for login
 3. Use methods postfix with *hook* to add or update cookies or locally store token for api calls to follow. 
 4. Update validate_resp ```is_valid_response_data``` as per your api needs. 
