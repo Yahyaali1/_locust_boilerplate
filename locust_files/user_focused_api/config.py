@@ -10,7 +10,7 @@ USER_CREDENTIALS_FILE_NAME = 'users.txt'
 USER_API_PASSWORD = 'locust_sample'
 
 try:
-    from locust_files.local_config import *
+    from user_focused_api.local_config import *
 except ImportError:
     logging.warning('Missing Local Configs')
 
