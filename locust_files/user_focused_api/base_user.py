@@ -5,8 +5,8 @@ import json
 from locust.user import HttpUser
 from locust.exception import StopUser
 
-from locust_files.config import (BASE_URL, API_HEADERS, USER_POOL, USER_API_PASSWORD, VALID_RESPONSE_CODES)
-from locust_files.exceptions import (UserCredentialsExhaustedException, LoginFailureException)
+from user_focused_api.config import (BASE_URL, API_HEADERS, USER_POOL, USER_API_PASSWORD, VALID_RESPONSE_CODES)
+from user_focused_api.exceptions import (UserCredentialsExhaustedException, LoginFailureException)
 
 
 class BaseUser(HttpUser):
